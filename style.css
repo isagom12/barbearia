@@ -1,6 +1,8 @@
-body{
+.principal{
   background-color: pink;
+  padding: 
 }
+
 
 #banner{
   width: 100%;
@@ -17,12 +19,21 @@ p {
 #missao {
 font-size:20px;
 }
-
-
+ul {
+display: inline-block;
+vertical-align: top;
+width: 20%;
+}
+.imagem-beneficios{
+  width: 50%;
+}
 em strong{
   color: red;
 }
-
+.beneficios{
+  background-color: #d2b1ec;
+  padding: 20px;
+}
 .item{
   font-style:italic;
 }
