@@ -7,9 +7,8 @@
 #banner{
   width: 100%;
 }
-
-h1 {
-  text-align: center;
+.texto-centralizado{
+text-align: center;
 }
 
 p {
@@ -34,6 +33,10 @@ em strong{
   background-color: #d2b1ec;
   padding: 20px;
 }
+
 .item{
   font-style:italic;
+}
+.titulo-principal{
+  padding-left: 20px;
 }
