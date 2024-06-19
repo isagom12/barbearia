@@ -178,7 +178,7 @@ titulo-principal{
   margin: 0 20px 20px 0;
 }
 
-.mapa{
+.mapa {
   padding: 3em 0
     width: 940px;
     margin: 0 auto;
@@ -214,4 +214,26 @@ titulo-principal{
 
 .imagem-beneficios{
   width: 50%;
+}
+
+.titulo-principal:first-letter{
+  color: red;
+}
+
+.titulo-principal:before{
+  content: "[";
+}
+titulo-principal:after{
+  content: "]";
+}
+p:first-line{
+  font-style:italic;
+}
+
+.item:before{
+ content "★";
+}
+
+.item:first-child{
+  font-weight: bold;
 }
