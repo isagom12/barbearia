@@ -140,7 +140,7 @@ thead{
 
 td, th{
   border: 1px solid #000000;
-  padding: 8px 15px;
+  padding: 10px 15px;
 }
 
 .banner{
@@ -151,6 +151,7 @@ titulo-principal{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .principal {
@@ -214,8 +215,14 @@ titulo-principal{
 
 .imagem-beneficios{
   width: 50%;
+  opacity: 0.6;
+  transition: 1s;
 }
 
+.imagem-beneficios:hover{
+  width: 50%;
+  opacity: 1;
+}
 .titulo-principal:first-letter{
   color: red;
 }
@@ -237,3 +244,22 @@ p:first-line{
 .item:first-child{
   font-weight: bold;
 }
+
+/*
+main > p{
+  background:red;
+}
+
+img + p{
+  background: purple!
+}
+
+img ~ p{
+  background: blue;
+  
+}
+
+.principal p:not(#missao){
+  background: orange;
+}
+*/
