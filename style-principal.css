@@ -217,6 +217,7 @@ titulo-principal{
   width: 50%;
   opacity: 0.6;
   transition: 1s;
+  box-shadow: 30px 30px 10px #000000;
 }
 
 .imagem-beneficios:hover{
@@ -263,3 +264,30 @@ img ~ p{
   background: orange;
 }
 */
+  @media: screen and (max-width: 480px){
+.caixa, .principal, .beneficios, .mapa-conteudo, .video{
+  width: auto;
+}
+
+  nav{
+    position: static;
+  }
+
+    @media screen and (max-width: 480px){
+.caixa, .principal, .mapa-conteudo, .video{
+  width: auto;
+}
+
+  nav{
+    position: static;
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .lista-beneficios, imgBeneficios{
+    width: 100%;
+  }
+}
